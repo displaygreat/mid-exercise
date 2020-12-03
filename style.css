@@ -85,7 +85,7 @@ a:hover {
 .header-menu {
   list-style-type: none;
   display: flex;
-  margin: 0 143px 0 0;
+  margin: 0 172px 0 0;
 }
 .header-menu-link {
   display: block;
@@ -95,16 +95,21 @@ a:hover {
   display: block;
 }
 .header-menu-item {
+  position: relative;
   margin: 0 8px;
 }
+.header-menu-item:first-child {
+  margin: 0 0 0 8px;
+}
 .header-menu-item:last-child {
-  margin: 0;
+  margin: 0 8px 0 0;
 }
 .header-menu-item:nth-child(odd) {
   height: 20px;
   border: 2px solid #bcbcbc;
 }
 .dropdown-content {
+  position: absolute;
   display: none;
   list-style-type: none;
   background-image: linear-gradient(
