@@ -12,6 +12,7 @@
   <header>
     <div class="container">
       <div class="header-top">
+        <a href="#" class="header-logo"></a>
         <a href="#" class="lang">English</a>
         <div class="search">
           <input class="input-search" type="text" value="רשום מילת חיפוש" onfocus="this.value = ''">
@@ -22,8 +23,11 @@
       <nav class="header-nav">
         <ul class="header-menu">
           <li class="header-menu-item">
-            <img src="img/menu-home-blue.png" alt="home-page-icon" class="home-icon">
+            <a href="#" class="header-menu-link">
+              <img src="img/menu-home-blue.png" alt="home-page-icon" class="home-icon">
+            </a>
           </li>
+          <li class="header-menu-item"></li>
           <li class="header-menu-item">
             <a href="#" class="header-menu-link">אודות</a>
             <ul class="dropdown-content">
@@ -102,13 +106,105 @@
     </div>
   </header>
   <main>
+    <div class="container">
+      <div class="articles">
+        <article>
+          <div class="article-preview">
+            <h3 class="article-title">קמעונאות ומסחר</h3>
+            <p class="article-text">במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית, והשיווקית של הקבוצה,
+              שמתאפיינת בחדשנות, יעילות ומובילות.
+              החטיבה פועלת...</p>
+            <a href="#" class="article-link"><span>קרא עוד</span></a>
+          </div>
+        </article>
+        <article>
+          <div class="article-preview">
+            <h3 class="article-title">זיקוק</h3>
+            <p class="article-text">פז זיקוק אשדוד (פז"א) היא חטיבת הזיקוק של קבוצת פז. החטיבה עוסקת בניהול פעילות בית
+              הזיקוק באשדוד, הכוללת ייצור תזקיקי
+              נפט...</p>
+            <a href="#" class="article-link"><span>קרא עוד</span></a>
+          </div>
+        </article>
+        <article>
+          <div class="article-preview">
+            <h3 class="article-title">תעשיות ושירותים</h3>
+            <p class="article-text">תחת חטיבת התעשיות והשירותים של פז פועלות מספר חברות בנות, המתמחות בפיתוח, ייצור
+              ושיווק
+              מוצרי לוואי של נפט, ומובילות את
+              השוק...</p>
+            <a href="#" class="article-link"><span>קרא עוד</span></a>
+          </div>
+        </article>
+      </div>
+      <!-- /.articles -->
+      <aside>
+        <div class="banner">
+          <h3 class="banner-title">כרטיס אשראי שופרסל וכרטיס אשראי יש</h3>
+          <img src="img/discount.jpg" alt="כרטיס אשראי שופרסל וכרטיס אשראי יש" class="banner-img">
+          <a href="#" class="banner-link"><span>לפרטים נוספים</span></a>
+        </div>
 
+        <div id="banner-1" class="banner" style="display: none">
+          <h3 class="banner-title">yellow click&amp;pick</h3>
+          <img src="img/yellow.jpg" alt="yellow click&pick" class="banner-img">
+          <a href="#" class="banner-link"><span>לפרטים נוספים</span></a>
+        </div>
+        <div id="banner-2" class="banner" style="display: none">
+          <h3 class="banner-title">טיפז</h3>
+          <img src="img/tipaz.jpg" alt="טיפז" class="banner-img">
+          <a href="#" class="banner-link"><span>לפרטים נוספים</span></a>
+        </div>
+        <div id="banner-3" class="banner" style="display: flex">
+          <h3 class="banner-title">שטחי מסחר פז סנטר</h3>
+          <img src="img/retail-and-trade.jpg" alt="שטחי מסחר פז סנטר" class="banner-img">
+          <a href="#" class="banner-link"><span>לפרטים נוספים</span></a>
+        </div>
+
+        <div class="banner">
+          <h3 class="banner-title">התחנות שלנו בדרך שלך</h3>
+          <div class="banner-links">
+            <a href="#" class="banner-link"><span>צפון</span></a>
+            <a href="#" class="banner-link"><span>מרכז</span></a>
+            <a href="#" class="banner-link"><span>דרום</span></a>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <!-- /.container -->
   </main>
-  <footer>
 
+  <footer>
+    <nav class="footer-nav">
+      <div class="container">
+        <ul class="footer-menu">
+          <li class="footer-menu-item"><a href="#" class="footer-menu-link"><img src="img/fb-icon.png"
+                alt="icon-facebook" class="footer-menu-img"></a></li>
+          <li class="footer-menu-item"></li>
+          <li class="footer-menu-item"><a href="#" class="footer-menu-link">עמוד הבית</a></li>
+          <li class="footer-menu-item"></li>
+          <li class="footer-menu-item"><a href="#" class="footer-menu-link">מחירונים</a></li>
+          <li class="footer-menu-item"></li>
+          <li class="footer-menu-item"><a href="#" class="footer-menu-link">קריירה</a></li>
+          <li class="footer-menu-item"></li>
+          <li class="footer-menu-item"><a href="#" class="footer-menu-link">תנאי שימוש</a></li>
+          <li class="footer-menu-item"></li>
+          <li class="footer-menu-item"><a href="#" class="footer-menu-link">נגישות</a></li>
+          <li class="footer-menu-item"></li>
+          <li class="footer-menu-item"><a href="#" class="footer-menu-link">מפת אתר</a></li>
+          <li class="footer-menu-item"></li>
+          <li class="footer-menu-item"><a href="#" class="footer-menu-link">צור קשר</a></li>
+          <li class="footer-menu-item"></li>
+          <li class="footer-menu-item"><a href="#" class="footer-menu-link">שטחי מסחר</a></li>
+          <li class="footer-menu-item"></li>
+          <li class="footer-menu-item"><a href="#" class="footer-menu-link">הסדר פשרה בתובענה הייצוגית בעניין הסדר
+              פזומט</a></li>
+        </ul>
+      </div>
+      <!-- /.container -->
+
+    </nav>
   </footer>
-  </div>
-  <!-- /.container -->
 
   <script src="script.js"></script>
 </body>
