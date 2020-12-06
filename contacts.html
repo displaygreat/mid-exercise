@@ -127,25 +127,25 @@
             <div class="fields">
               <div class="input-wrap">
                 <label for="fname">* שם פרטי</label>
-                <input id="fname" class="form-input" type="text" requered>
-                <span class="requered">שדה חובה</span>
+                <input id="fname" data-rule="fname" class="form-input" type="text" requered>
+                <span class=" requered">שדה חובה</span>
               </div>
               <div class="input-wrap">
                 <label for="lname">* שם משפחה</label>
-                <input id="lname" class="form-input" type="text" requered>
+                <input id="lname" data-rule="lname" class="form-input" type="text" requered>
                 <span class="requered">שדה חובה</span>
               </div>
-              <div class="input-wrap">
+              <div id="tel-wrap" class="input-wrap">
                 <label for="tel">* טלפון</label>
-                <input class="form-input" type="tel" name="" id="tel" requered>
+                <input id="tel" data-rule="tel" class="form-input" type="tel" name="" requered>
                 <span class="requered">שדה חובה</span>
               </div>
-              <div class="input-wrap">
+              <div id="email-wrap" class="input-wrap">
                 <label for="mail">* E-mail</label>
-                <input class="form-input" type="email" name="" id="mail" requered>
+                <input id="mail" data-rule="mail" class="form-input" type="email" name="" requered>
                 <span class="requered">שדה חובה</span>
               </div>
-              <textarea name="" id="message" cols="20" rows="3" placeholder="תוכן הפניה"
+              <textarea name="" id="message" cols="20" rows="10" placeholder="תוכן הפניה"
                 onfocus="this.value=''"></textarea>
               <a href="#" class="btn-send">
                 <span class="right">&nbsp;&nbsp;</span>
@@ -221,7 +221,7 @@
     </nav>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="validation.js"></script>
 </body>
 
 </html>
