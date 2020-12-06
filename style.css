@@ -65,7 +65,7 @@ header {
   position: absolute;
   bottom: -83px;
   right: -8px;
-  background: url(../img/paz-logo.png) no-repeat 0 0;
+  background: url(./img/paz-logo.png) no-repeat 0 0;
 }
 .search {
   display: flex;
@@ -87,7 +87,7 @@ header {
   width: 19px;
   height: 19px;
   display: inline-block;
-  background-image: url(../img/search-button.png);
+  background-image: url(./img/search-button.png);
   background-repeat: no-repeat;
 }
 .header-menu {
@@ -169,13 +169,13 @@ article {
   background-size: cover;
 }
 article:nth-child(1) {
-  background-image: url(../img/paz-station.jpg);
+  background-image: url(./img/paz-station.jpg);
 }
 article:nth-child(2) {
-  background-image: url(../img/refining.jpg);
+  background-image: url(./img/refining.jpg);
 }
 article:nth-child(3) {
-  background-image: url(../img/industries-and-services.jpg);
+  background-image: url(./img/industries-and-services.jpg);
 }
 .article-preview {
   display: flex;
@@ -206,12 +206,12 @@ article:nth-child(3) {
   bottom: 4px;
   font-size: 13px;
   font-weight: normal;
-  background-image: url(../img/read-more-white.png);
+  background-image: url(./img/read-more-white.png);
   background-repeat: no-repeat;
   background-position: center left;
 }
 .article-link:hover {
-  background-image: url(../img/read-more-blue.png);
+  background-image: url(./img/read-more-blue.png);
 }
 .article-link > span {
   text-decoration: underline;
@@ -262,7 +262,7 @@ aside {
       rgba(229, 229, 229, 0.17) 73%,
       rgba(236, 236, 236, 0.14) 100%
     ),
-    url(../img/map-transparent.png) no-repeat left 24px bottom 5px;
+    url(./img/map-transparent.png) no-repeat left 24px bottom 5px;
 }
 .banner-img {
   width: 100%;
@@ -276,12 +276,12 @@ aside {
   display: block;
   font-weight: normal;
   color: inherit;
-  background-image: url(../img/read-more-yellow.png);
+  background-image: url(./img/read-more-yellow.png);
   background-repeat: no-repeat;
   background-position-y: 76%;
 }
 .banner-link:hover {
-  background-image: url(../img/read-more-blue.png);
+  background-image: url(./img/read-more-blue.png);
 }
 .banner-link > span {
   margin-left: 12px;
@@ -330,12 +330,12 @@ footer {
 .contacts-menu-link {
   width: 17px;
   height: 33px;
-  background-image: url(../img/menu-home.png);
+  background-image: url(./img/menu-home.png);
   background-repeat: no-repeat;
   background-position: 0 top;
 }
 .contacts-menu-link:hover {
-  background-image: url(../img/menu-home-blue.png);
+  background-image: url(./img/menu-home-blue.png);
 }
 /* contacts-page-layout > column-1 */
 .contacts-page-layout {
@@ -488,10 +488,10 @@ textarea::placeholder {
   text-decoration: none;
 }
 .btn-send:hover > .right {
-  background: url(../img/btn-hover-r.png) no-repeat -5px 0;
+  background: url(./img/btn-hover-r.png) no-repeat -5px 0;
 }
 .btn-send:hover > .left {
-  background: url(../img/btn-hover-l.png) no-repeat -6px 0;
+  background: url(./img/btn-hover-l.png) no-repeat -6px 0;
 }
 .right,
 .left {
