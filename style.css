@@ -169,7 +169,7 @@ article {
   background-size: cover;
 }
 article:nth-child(1) {
-  background-image: url(./img/paz-station.jpg);
+  background-image: url(./img/station.jpg);
 }
 article:nth-child(2) {
   background-image: url(./img/refining.jpg);
