@@ -24,7 +24,11 @@ for (let input of inputs) {
     this.classList.remove('invalid');
     if (check) {
       this.classList.add('valid');
-    } else {
+    } 
+    else if (input.value == '') {
+        input.nextElementSibling.style.display = 'block';
+      }
+    else {
       this.classList.add('invalid');
       this.insertAdjacentHTML('afterend', `<span class="error">השדה מולא באופן שגוי</span>`)
     }
